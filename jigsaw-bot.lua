@@ -1,12 +1,7 @@
-touchDown(0, 161, 978);
-usleep(1);
-touchUp(0, 161, 978);
+-- 3 stage claim process
+tap(0, 161, 978);
 usleep(34000000);
-touchDown(0, 603, 39);
-usleep(1);
-touchUp(0, 603, 39);
+tap(0, 603, 39);
 usleep(30000000);
-touchDown(0, 323, 654);
-usleep(1);
-touchUp(0, 323, 654);
+tap(0, 323, 654);
 usleep(1000000);
