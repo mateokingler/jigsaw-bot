@@ -9,4 +9,4 @@ _jigsaw-bot_ is currently in development, but is going to support the following:
 * Support for iPhone 6/6s (Currently only supports iPhone 5/5s)
 * Option to change how long the claiming process reiterates
 * Faster and more accurate claiming
-* Alert the user when triggering the script, and give option to cancel
+* ~~Alert the user when triggering the script, and give option to cancel~~
