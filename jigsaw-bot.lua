@@ -1,11 +1,11 @@
 --
--- TODO: Change function i values to reflect actual time
+-- TODO: Accomodate for ADs have 'X' on left side of screen
 --
 
 -- Iteration functions
 function fiveMinutes()
   local i = 1;
-  while i <= 5 do
+  while i <= 8 do
     i = i + 1;
 	local jigsawState = appState("com.nate.jigsawmoney");
     if jigsawState == "NOT RUNNING"
@@ -29,7 +29,7 @@ end
 
 function twentyMinutes()
   local i = 1;
-  while i <= 20 do
+  while i <= 32 do
     i = i + 1;
 	local jigsawState = appState("com.nate.jigsawmoney");
     if jigsawState == "NOT RUNNING"
@@ -53,7 +53,7 @@ end
 
 function oneHour()
   local i = 1;
-  while i <= 60 do
+  while i <= 95 do
     i = i + 1;
 	local jigsawState = appState("com.nate.jigsawmoney");
     if jigsawState == "NOT RUNNING"
@@ -78,7 +78,7 @@ end
 -- FIX MANUAL STOP (Detect user 3 click home button input)
 function manualStop()
   local i = 1;
-  while i <= 2000 do
+  while i <= 50000 do
     i = i + 1;
 	local jigsawState = appState("com.nate.jigsawmoney");
     if jigsawState == "NOT RUNNING"
