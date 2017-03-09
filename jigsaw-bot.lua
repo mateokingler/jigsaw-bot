@@ -1,7 +1,3 @@
---
--- TODO: Accomodate for ADs have 'X' on left side of screen
---
-
 -- Iteration functions
 function fiveMinutes()
   local i = 1;
@@ -19,10 +15,12 @@ function fiveMinutes()
       then
       tap(161, 978);
       usleep(34000000);
+      tap(37, 39);
+      usleep(500000);
       tap(603, 39);
       usleep(3000000);
       tap(323, 654);
-      usleep(1000000);
+      usleep(500000);
     end
   end
 end
@@ -43,10 +41,12 @@ function twentyMinutes()
       then
       tap(161, 978);
       usleep(34000000);
+      tap(37, 39);
+      usleep(500000);
       tap(603, 39);
       usleep(3000000);
       tap(323, 654);
-      usleep(1000000);
+      usleep(500000);
     end
   end
 end
@@ -67,10 +67,12 @@ function oneHour()
       then
       tap(161, 978);
       usleep(34000000);
+      tap(37, 39);
+      usleep(500000);
       tap(603, 39);
       usleep(3000000);
       tap(323, 654);
-      usleep(1000000);
+      usleep(500000);
     end
   end
 end
@@ -91,10 +93,12 @@ function manualStop()
       then
       tap(161, 978);
       usleep(34000000);
+      tap(37, 39);
+      usleep(500000);
       tap(603, 39);
       usleep(3000000);
       tap(323, 654);
-      usleep(1000000);
+      usleep(500000);
     end
   end
 end
