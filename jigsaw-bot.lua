@@ -126,10 +126,8 @@ end
 local screenWidth = getScreenResolution();
 if screenWidth == 640 -- iPhone 5/5S/5C/SE
   then runSettings();
-  elseif screenWidth == 750 -- iPhone 6
-	then alert("Sorry, jigsaw-bot does not currently support iPhone 6s");
-  elseif screenWidth == 750 -- iPhone 7
-	then alert("Sorry, jigsaw-bot does not currently support iPhone 7s");
+  elseif screenWidth == 750 -- iPhone 6/7
+	then alert("Sorry, jigsaw-bot does not currently support iPhone 6/7s");
   elseif screenWidth == 1242 -- iPhone 7+
 	then alert("Sorry, jigsaw-bot does not currently support the iPhone 7+");
   else
