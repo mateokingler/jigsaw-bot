@@ -19,6 +19,7 @@ Recommendations:
 * Turn off Low Power Mode ```Settings --> Battery --> DISABLE "Low Power Mode"```
 * Make sure it has a charging source or sufficient battery
 * Make sure you have a stable internet connection, works best on Wi-Fi
+* Close all other running background applications to reduce the chances of crashes/random respringing
 
 ## Todo
 _jigsaw-bot_ is currently in development, but is going to support the following:
