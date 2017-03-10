@@ -17,6 +17,8 @@ Recommendations:
 * Disable all notifications ```Settings --> Notifications --> CHOOSE APP --> DISABLE "Allow notifications"```
 * Disable Auto-Lock ```Settings --> Display & Brightness --> Auto-Lock --> SELECT "Never"```
 * Turn off Low Power Mode ```Settings --> Battery --> DISABLE "Low Power Mode"```
+* Make sure it has a charging source or sufficient battery
+* Make sure you have a stable internet connection, works best on Wi-Fi
 
 ## Todo
 _jigsaw-bot_ is currently in development, but is going to support the following:
