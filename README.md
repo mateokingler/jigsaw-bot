@@ -2,6 +2,7 @@
 jigsaw-bot is a _lightweight_ lua script for the money making IOS app, "Jigsaw Money". Using the Cydia package, "AutoTouch", it emulates user gestures automating the process of clicking through/watching the ADs.
 
 Currently only supports iPhone 5/5S/5C/5SE
+#### As of March 10th, 2017 development is paused due to me having to update to the latest firmware on my jailbroken device thus losing my jailbreak.
 
 ## Usage/Dependencies
 __NOTE: Requires a jailbroken iOS device with the app store alternative, "Cydia" installed.__
